@@ -47,6 +47,7 @@ if(command === "add"){
     var note = notes.getNote(argv.title); 
     if(note){
         console.log("Note Found");
+        console.log('Not not present');
         notes.logNote(note);
     }else{
         console.log("Note not found");
